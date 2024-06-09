@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Over</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: powderpink;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .game-over {
+        text-align: center;
+      }
+      .game-over h1 {
+        color: red;
+        font-size: 48px;
+        margin: 0;
+      }
+      .game-over p {
+        font-size: 24px;
+        color: green;
+      }
+      .game-over button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      .game-over button:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="game-over">
+      <h1>Game Over</h1>
+      <p>Thanks for playing!</p>
+      <button onclick="window.location.href='snake game.html'">Play Again</button>
+    </div>
+  </body>
+</html>
